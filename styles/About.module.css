@@ -1,0 +1,70 @@
+.content {
+  text-align: end;
+  margin: 5rem 3rem 0 3rem;
+  animation: pageDisplaying 0.8s;
+}
+
+.content h1 {
+  margin-bottom: 1rem;
+}
+
+.content p {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.personal {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacts h1 {
+  margin-bottom: 2rem;
+}
+
+.picture {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+
+@keyframes pageDisplaying {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    text-align: center;
+  }
+
+  .personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .picture {
+    margin-bottom: 1rem;
+  }
+}

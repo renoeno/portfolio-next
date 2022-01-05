@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "title": "Temp",
+    "image": "/../public/projects/temp.jpg",
+    "tags": ["web", "api"],
+    "year": "2021",
+    "url": "temp",
+    "link": "https://temp-renoeno.vercel.app/",
+    "description": "Temp é uma aplicação web que propõe uma experiência visualmente prazerosa na visualização do clima. Baseado em um projeto de computação física realizado em 2016, Temp permite que o usuário escolha uma cidade (atualmente apenas cidades brasileiras estão disponíveis). Uma requisição para a API do openWeathermap é então feita e as informações climáticas da cidade são exibidos em tela, com uma alteração do plano de fundo de acordo com a condição climática e horário. O projeto foi desenvolvido com o framework NextJS."
+  },
+  {
+    "id": "2",
+    "title": "IV Seminário Internacional das Artes",
+    "image": "/../public/projects/seminario-internacional.jpg",
+    "tags": ["web"],
+    "year": "2018",
+    "url": "seminario-internacional-artes",
+    "link": "http://www.dasartes.ufc.br/",
+    "description": "O IV Seminário Internacional das Artes, principal evento do Mestrado em Artes da UFC, foi realizado em 2018. Com base no projeto gráfico desenvolvido por mim, Cecília Andrade, Gerardo Alfonso e Júnior Pimenta, desenvolvi o website de divulgação do evento. O site foi desenvolvido no wordpress, fazendo uso do Bootstrap."
+  },
+  {
+    "id": "3",
+    "title": "Portfolio Legacy",
+    "image": "/../public/projects/portfolio-legacy.jpg",
+    "tags": ["web"],
+    "year": "2018",
+    "url": "portfolio-legacy",
+    "link": "https://renoeno.github.io/portfolio-legacy/",
+    "description": "Antes de grid ou flexbox, um portfolio antigo feito na base do HTML, CSS e Javascript. Nele você pode encontrar outros trabalhos meus que não estão listados aqui."
+  },
+  {
+    "id": "4",
+    "title": "Carne sobre vermelho",
+    "image": "/../public/projects/carne-sobre-vermelho.jpg",
+    "tags": ["arduino", "instalação"],
+    "year": "2017",
+    "url": "carne-sobre-vermelho",
+    "link": "https://github.com/renoeno/carne-sobre-vermelho",
+    "video": "https://vimeo.com/222514761",
+    "description": "carne sobre vermelho é um desdobramento da instalação red sea, desenvolvida em 2016. tratando sobre o consumo de carne através de uma experiência artística da visualização de dados, busquei propor uma experiência física dos dados, criando um estímulo sensível no público. a cada vez que uma pessoa adentra o espaço da instalação, sangue falso é jorrado em um pote, atualizando a informação textual em um monitor. o sistema eletrônico/hidráulico é composto por uma placa arduino uno, que recebe dados de dois sensores de ultrassom e controla diferentes motores. o arduino é controlado por uma placa raspberry pi, que também roda a aplicação textual, implementada em processing. carne sobre vermelho foi tema de uma fala na primeira laser talks realizada na unifor, a primeira também do brasil."
+  },
+  {
+    "id": "5",
+    "title": "Sortilège",
+    "image": "/../public/projects/sortilege.jpg",
+    "tags": ["arduino", "objetos"],
+    "year": "2016",
+    "url": "sortilege",
+    "link": "https://github.com/renoeno/sortilege",
+    "video": "https://vimeo.com/157538280",
+    "description": "Sortilège é um projeto de computação física baseado na personagem de mesmo nome do livro/filme Vício Inerente. Criado para o curso de Physical Computing na Ontario College of Art and Design, o público interage com um rádio relógio que funciona como uma vidente metafórica, na qual toda vez em que um espectador sintoniza uma estação, o dispositivo traz uma leitura do futuro em um áudio confuso e ambíguo, tirado de diálogos do filme. Utilizando a carcaça de um velho rádio relógio, no seu interior há uma placa Arduino ligada a um shield MP3, recebendo dados dos controles manuseados pelo público e tocando áudios específicos."
+  }
+]

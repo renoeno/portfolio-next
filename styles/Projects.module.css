@@ -1,0 +1,18 @@
+.content {
+  text-align: end;
+  margin: 7rem 3rem 0 3rem;
+  animation: pageDisplaying 0.8s;
+}
+
+.content h1 {
+  margin-bottom: 1rem;
+}
+
+@keyframes pageDisplaying {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
