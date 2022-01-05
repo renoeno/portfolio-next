@@ -14,6 +14,7 @@ const Contacts = () => {
             width="25"
             height="25"
             alt="Github icon"
+            priority={true}
           />
         </a>
       </li>
@@ -29,6 +30,7 @@ const Contacts = () => {
             width="25"
             height="25"
             alt="Linkedin icon"
+            priority={true}
           />
         </a>
       </li>
@@ -40,6 +42,7 @@ const Contacts = () => {
             width="25"
             height="25"
             alt="Gmail icon"
+            priority={true}
           />
         </a>
       </li>
@@ -55,6 +58,7 @@ const Contacts = () => {
             width="25"
             height="25"
             alt="Instagram icon"
+            priority={true}
           />
         </a>
       </li>

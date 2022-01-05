@@ -63,6 +63,7 @@ const Project = (props) => {
           width="1200"
           height="600"
           alt="Project Image"
+          priority={true}
         />
       )}
     </div>
