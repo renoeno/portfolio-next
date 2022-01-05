@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import classes from "../styles/Home.module.css";
 
@@ -13,6 +14,12 @@ const Home = () => {
       <div className={classes.main}>
         <h2 className="subtitle">reno beserra</h2>
         <h1 className="title">interseções entre tecnologia e design.</h1>
+        <Image
+          src="/projects/sortilege.jpg"
+          width="1200"
+          height="600"
+          alt="Project Image"
+        />
         <nav className={classes.homeNav}>
           <ul>
             <li className="subtitle">
