@@ -14,7 +14,7 @@ const About = () => {
             width="180"
             height="210"
             alt="Personal picture"
-            priority={}
+            priority={true}
           />
         </div>
         <div className={classes.contacts}>
