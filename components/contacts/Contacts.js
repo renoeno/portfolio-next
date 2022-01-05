@@ -10,7 +10,7 @@ const Contacts = () => {
         <a target="_blank" rel="noreferrer" href="https://github.com/renoeno/">
           <Image
             className="image-link"
-            src="/../public/github.svg"
+            src="/github.svg"
             width="25"
             height="25"
             alt="Github icon"
@@ -25,7 +25,7 @@ const Contacts = () => {
         >
           <Image
             className="image-link"
-            src="/../public/linkedin.svg"
+            src="/linkedin.svg"
             width="25"
             height="25"
             alt="Linkedin icon"
@@ -36,7 +36,7 @@ const Contacts = () => {
         <a target="_blank" rel="noreferrer" href="mailto:renoalm@gmail.com">
           <Image
             className="image-link"
-            src="/../public/gmail.svg"
+            src="/gmail.svg"
             width="25"
             height="25"
             alt="Gmail icon"
@@ -51,7 +51,7 @@ const Contacts = () => {
         >
           <Image
             className="image-link"
-            src="/../public/instagram.svg"
+            src="/instagram.svg"
             width="25"
             height="25"
             alt="Instagram icon"

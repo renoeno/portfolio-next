@@ -10,7 +10,7 @@ const About = () => {
       <div className={classes.personal}>
         <div className={classes.picture}>
           <Image
-            src="/../public/picture.jpg"
+            src="/picture.jpg"
             width="180"
             height="210"
             alt="Personal picture"

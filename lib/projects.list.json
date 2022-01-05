@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Temp",
-    "image": "/../public/projects/temp.jpg",
+    "image": "/projects/temp.jpg",
     "tags": ["web", "api"],
     "year": "2021",
     "url": "temp",
@@ -12,7 +12,7 @@
   {
     "id": "2",
     "title": "IV Seminário Internacional das Artes",
-    "image": "/../public/projects/seminario-internacional.jpg",
+    "image": "/projects/seminario-internacional.jpg",
     "tags": ["web"],
     "year": "2018",
     "url": "seminario-internacional-artes",
@@ -22,7 +22,7 @@
   {
     "id": "3",
     "title": "Portfolio Legacy",
-    "image": "/../public/projects/portfolio-legacy.jpg",
+    "image": "/projects/portfolio-legacy.jpg",
     "tags": ["web"],
     "year": "2018",
     "url": "portfolio-legacy",
@@ -32,7 +32,7 @@
   {
     "id": "4",
     "title": "Carne sobre vermelho",
-    "image": "/../public/projects/carne-sobre-vermelho.jpg",
+    "image": "/projects/carne-sobre-vermelho.jpg",
     "tags": ["arduino", "instalação"],
     "year": "2017",
     "url": "carne-sobre-vermelho",
@@ -43,7 +43,7 @@
   {
     "id": "5",
     "title": "Sortilège",
-    "image": "/../public/projects/sortilege.jpg",
+    "image": "/projects/sortilege.jpg",
     "tags": ["arduino", "objetos"],
     "year": "2016",
     "url": "sortilege",
