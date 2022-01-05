@@ -9,7 +9,7 @@ const Home = () => {
       <Head>
         <title>Portfolio de Reno Almeida</title>
         <meta name="description" content="Portfolio de Reno Almeida" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={classes.main}>
         <h2 className="subtitle">reno beserra</h2>
