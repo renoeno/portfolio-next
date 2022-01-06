@@ -32,7 +32,7 @@ const ProjectItem = React.forwardRef(({ onClick, href, ...props }, ref) => {
             src={props.url}
             width="1200"
             height="600"
-            alt="Project Image"
+            alt="Imagem de projeto"
             priority={true}
           />
         </div>

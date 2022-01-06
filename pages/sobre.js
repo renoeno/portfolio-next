@@ -21,7 +21,7 @@ const About = () => {
               src="/picture.jpg"
               width="180"
               height="210"
-              alt="Personal picture"
+              alt="Foto pessoal"
               priority={true}
             />
           </div>

@@ -17,10 +17,10 @@ const Home = () => {
         <nav className={classes.homeNav}>
           <ul>
             <li className="subtitle">
-              <Link href="/projects">projetos</Link>
+              <Link href="/projetos">projetos</Link>
             </li>
             <li className="subtitle">
-              <Link href="/about">sobre</Link>
+              <Link href="/sobre">sobre</Link>
             </li>
           </ul>
         </nav>

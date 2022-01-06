@@ -20,7 +20,7 @@ const Projects = () => {
 
         {projects.map((project) => {
           return (
-            <Link key={project.id} href={`/projects/${project.url}`} passHref>
+            <Link key={project.id} href={`/projetos/${project.url}`} passHref>
               <ProjectItem
                 key={project.id}
                 id={project.id}
