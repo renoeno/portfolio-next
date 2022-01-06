@@ -8,23 +8,30 @@ import projects from "../../lib/projects.list.json";
 
 const Projects = () => {
   return (
-    <div className={classes.content}>
-      <h1 className="title">projetos</h1>
+    <>
+      <Head>
+        <title>Projetos</title>
+        <meta name="description" content="Projetos de Reno Almeida" />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
+      <div className={classes.content}>
+        <h1 className="title">projetos</h1>
 
-      {projects.map((project) => {
-        return (
-          <Link key={project.id} href={`/projects/${project.url}`} passHref>
-            <ProjectItem
-              key={project.id}
-              id={project.id}
-              url={project.image}
-              title={project.title}
-              tags={project.tags}
-            />
-          </Link>
-        );
-      })}
-    </div>
+        {projects.map((project) => {
+          return (
+            <Link key={project.id} href={`/projects/${project.url}`} passHref>
+              <ProjectItem
+                key={project.id}
+                id={project.id}
+                url={project.image}
+                title={project.title}
+                tags={project.tags}
+              />
+            </Link>
+          );
+        })}
+      </div>
+    </>
   );
 };
 
