@@ -59,7 +59,7 @@ const Project = (props) => {
         </div>
       ) : (
         <Image
-          src={project.image}
+          src={project.imagehd}
           width="1200"
           height="600"
           alt="Project Image"
