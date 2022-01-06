@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 
 import Contacts from "../components/contacts/Contacts";
 
