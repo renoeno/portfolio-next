@@ -2,7 +2,6 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import ReactPlayer from "react-player";
 
-import Head from "next/head";
 import Image from "next/image";
 
 import classes from "../../styles/Project.module.css";
