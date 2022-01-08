@@ -2,6 +2,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 import Contacts from "../components/contacts/Contacts";
+import Header from "../components/header/Header";
 
 import classes from "../styles/About.module.css";
 
@@ -13,7 +14,7 @@ const About = () => {
         <meta name="description" content="Sobre Reno Almeida" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-
+      <Header active={"sobre"} />
       <div className={classes.content}>
         <div className={classes.personal}>
           <div className={classes.picture}>
@@ -25,10 +26,7 @@ const About = () => {
               priority={true}
             />
           </div>
-          <div className={classes.contacts}>
-            <h1 className="title">sobre</h1>
-            <Contacts />
-          </div>
+          <Contacts />
         </div>
         <p className="content-text">
           Meu nome é Reno Almeida e sou desenvolvedor e pesquisador. Sou

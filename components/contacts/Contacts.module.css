@@ -1,6 +1,6 @@
 .contacts {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .contacts li:not(:last-child) {

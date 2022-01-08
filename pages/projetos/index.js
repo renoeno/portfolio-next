@@ -6,6 +6,7 @@ import ProjectItem from "../../components/projectitem/ProjectItem";
 import classes from "../../styles/Projects.module.css";
 
 import projects from "../../lib/projects.list.json";
+import Header from "../../components/header/Header";
 
 const Projects = () => {
   return (
@@ -15,9 +16,8 @@ const Projects = () => {
         <meta name="description" content="Projetos de Reno Almeida" />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <Header active={"projetos"} />
       <div className={classes.content}>
-        <h1 className="title">projetos</h1>
-
         {projects.map((project) => {
           return (
             <Link key={project.id} href={`/projetos/${project.url}`} passHref>

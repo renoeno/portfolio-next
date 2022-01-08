@@ -1,6 +1,6 @@
 .content {
   text-align: end;
-  margin: 5rem 3rem 0 3rem;
+  margin: 2rem 3rem 0 3rem;
   animation: pageDisplaying 0.8s;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .content p {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   text-align: center;
 }
 
@@ -17,17 +17,9 @@
   width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-}
-
-.contacts {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-}
-
-.contacts h1 {
-  margin-bottom: 2rem;
+  align-items: center;
+  flex-direction: column;
 }
 
 .picture {
@@ -35,6 +27,7 @@
   width: 180px;
   height: 180px;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 @keyframes pageDisplaying {

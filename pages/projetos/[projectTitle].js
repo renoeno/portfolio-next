@@ -7,6 +7,7 @@ import Image from "next/image";
 import classes from "../../styles/Project.module.css";
 
 import projects from "../../lib/projects.list.json";
+import Header from "../../components/header/Header";
 
 const Project = (props) => {
   const router = useRouter();
@@ -21,6 +22,7 @@ const Project = (props) => {
       <Head>
         <title>{project.title}</title>
       </Head>
+      <Header />
       <div className={classes.content}>
         <div className={classes.titles}>
           <h1 className="title">{project.title}</h1>
