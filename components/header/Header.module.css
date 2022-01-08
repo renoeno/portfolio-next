@@ -65,3 +65,15 @@
     text-decoration-color: black;
   }
 }
+
+@media (max-width: 1124px) {
+  .headerContainer {
+    margin: 0 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .headerContent nav a {
+    font-size: 1.2rem;
+  }
+}
