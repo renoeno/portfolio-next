@@ -1,7 +1,7 @@
 .content {
   text-align: end;
   margin: 2.5rem 3rem 0 3rem;
-  animation: pageDisplaying 0.8s;
+  animation: pageDisplaying 1s;
 }
 
 .content h1 {

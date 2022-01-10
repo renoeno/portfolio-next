@@ -12,7 +12,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={classes.main}>
-        <h2 className="subtitle">reno beserra</h2>
+        <h2 className="subtitle">reno almeida</h2>
         <h1 className="title">interseções entre tecnologia e design.</h1>
         <nav className={classes.homeNav}>
           <ul>
