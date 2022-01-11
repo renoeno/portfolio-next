@@ -17,10 +17,14 @@ const Home = () => {
         <nav className={classes.homeNav}>
           <ul>
             <li className="subtitle">
-              <Link href="/projetos">projetos</Link>
+              <Link href="/projetos" prefetch>
+                projetos
+              </Link>
             </li>
             <li className="subtitle">
-              <Link href="/sobre">sobre</Link>
+              <Link href="/sobre" prefetch>
+                sobre
+              </Link>
             </li>
           </ul>
         </nav>

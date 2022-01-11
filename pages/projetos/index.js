@@ -20,7 +20,12 @@ const Projects = () => {
       <div className={classes.content}>
         {projects.map((project) => {
           return (
-            <Link key={project.id} href={`/projetos/${project.url}`} passHref>
+            <Link
+              key={project.id}
+              href={`/projetos/${project.url}`}
+              passHref
+              prefetch
+            >
               <ProjectItem
                 key={project.id}
                 id={project.id}
