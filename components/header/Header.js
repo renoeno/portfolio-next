@@ -1,8 +1,12 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 import styles from "./Header.module.css";
 
 const Header = (props) => {
+  const { asPath } = useRouter();
+
+  console.log(asPath);
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
@@ -15,7 +19,7 @@ const Header = (props) => {
           <Link href="/projetos">
             <a
               className={`${
-                props.active === "projetos" ? styles.active : styles.inactive
+                asPath === "/projetos" ? styles.active : styles.inactive
               }`}
             >
               Projetos
@@ -24,7 +28,7 @@ const Header = (props) => {
           <Link href="/sobre">
             <a
               className={`${
-                props.active === "sobre" ? styles.active : styles.inactive
+                asPath === "/sobre" ? styles.active : styles.inactive
               }`}
             >
               Sobre
