@@ -8,7 +8,7 @@
     "year": "2021",
     "url": "temp",
     "link": "https://temp-renoeno.vercel.app/",
-    "description": "Temp é uma aplicação web que propõe uma experiência visualmente prazerosa na visualização do clima. Baseado em um projeto de computação física realizado em 2016, Temp permite que o usuário escolha uma cidade (atualmente apenas cidades brasileiras estão disponíveis). Uma requisição para a API do openWeathermap é então feita e as informações climáticas da cidade são exibidos em tela, com uma alteração do plano de fundo de acordo com a condição climática e horário. O projeto foi desenvolvido com o framework NextJS."
+    "description": "Temp é uma aplicação web que propõe uma experiência visualmente prazerosa na visualização do clima. Baseado em um projeto de computação física realizado em 2016, Temp permite que o usuário escolha uma cidade. Uma requisição para a API do openWeathermap é então feita e as informações climáticas da cidade são exibidos em tela, com uma alteração do plano de fundo de acordo com a condição climática e horário. O projeto foi desenvolvido com o framework NextJS."
   },
   {
     "id": "2",
