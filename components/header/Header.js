@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import styles from "./Header.module.css";
 
-const Header = (props) => {
+const Header = () => {
   const { asPath } = useRouter();
 
   console.log(asPath);

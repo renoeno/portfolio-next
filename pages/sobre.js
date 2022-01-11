@@ -14,7 +14,7 @@ const About = () => {
         <meta name="description" content="Sobre Reno Almeida" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Header active={"sobre"} />
+      <Header />
       <div className={classes.content}>
         <div className={classes.personal}>
           <div className={classes.picture}>

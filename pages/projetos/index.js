@@ -16,7 +16,7 @@ const Projects = () => {
         <meta name="description" content="Projetos de Reno Almeida" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Header active={"projetos"} />
+      <Header />
       <div className={classes.content}>
         {projects.map((project) => {
           return (
