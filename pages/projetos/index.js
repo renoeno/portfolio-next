@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import ProjectItem from "../../components/projectitem/ProjectItem";
 
-import classes from "../../styles/Projects.module.scss";
+import classes from "../../styles/Projects.module.css";
 
 import projects from "../../lib/projects.list.json";
 import Header from "../../components/header/Header";

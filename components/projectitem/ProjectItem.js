@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import Image from "next/image";
 
-import classes from "./ProjectItem.module.scss";
+import classes from "./ProjectItem.module.css";
 
 const ProjectItem = React.forwardRef(({ onClick, href, ...props }, ref) => {
   return (

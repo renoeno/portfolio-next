@@ -4,12 +4,8 @@
   box-sizing: border-box;
 }
 
-:root {
-  --gray-500: #eee;
-}
-
 body {
-  background-color: var(--gray-500);
+  background-color: #eee;
 }
 
 h1 {

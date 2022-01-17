@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import classes from "../styles/Home.module.scss";
+import classes from "../styles/Home.module.css";
 
 const Home = () => {
   return (

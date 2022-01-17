@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 
 import Image from "next/image";
 
-import classes from "../../styles/Project.module.scss";
+import classes from "../../styles/Project.module.css";
 
 import projects from "../../lib/projects.list.json";
 import Header from "../../components/header/Header";
