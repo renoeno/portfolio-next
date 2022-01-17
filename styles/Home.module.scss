@@ -6,36 +6,36 @@
   justify-content: center;
   text-align: center;
   animation: pageDisplaying 1s;
+
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
 }
 
-.main .homeNav {
+.homeNav {
   width: 80%;
-}
 
-.main :not(:last-child) {
-  margin-bottom: 1.5rem;
-}
+  ul {
+    display: flex;
+    justify-content: space-between;
 
-.homeNav ul {
-  display: flex;
-  justify-content: space-between;
-}
+    li {
+      margin: 0 auto;
+    }
+  }
 
-.homeNav ul li {
-  margin: 0 auto;
-}
+  a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    transition: line-through 0.5s;
 
-.homeNav a {
-  text-decoration: none;
-  font-size: 2rem;
-  color: black;
-  transition: line-through 0.5s;
-}
-
-.homeNav a:hover {
-  text-decoration: line-through;
-  text-decoration-thickness: 3px;
-  animation: lineCrossing 0.2s linear;
+    &:hover {
+      text-decoration: line-through;
+      text-decoration-thickness: 3px;
+      animation: lineCrossing 0.2s linear;
+    }
+  }
 }
 
 @keyframes lineCrossing {

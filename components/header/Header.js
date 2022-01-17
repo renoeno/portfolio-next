@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-import styles from "./Header.module.css";
+import styles from "./Header.module.scss";
 
 const Header = () => {
   const { asPath } = useRouter();

@@ -4,7 +4,7 @@ import Head from "next/head";
 import Contacts from "../components/contacts/Contacts";
 import Header from "../components/header/Header";
 
-import classes from "../styles/About.module.css";
+import classes from "../styles/About.module.scss";
 
 const About = () => {
   return (

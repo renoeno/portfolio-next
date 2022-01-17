@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import classes from "./Contacts.module.css";
+import classes from "./Contacts.module.scss";
 
 const Contacts = () => {
   return (

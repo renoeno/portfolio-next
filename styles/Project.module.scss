@@ -2,31 +2,31 @@
   text-align: end;
   margin: 2rem 3rem 1.5rem 3rem;
   animation: pageDisplaying 1s;
-}
 
-.content h1 {
-  margin-bottom: 1rem;
-}
+  h1 {
+    margin-bottom: 1rem;
+  }
 
-.content p {
-  margin: 1.5rem 0;
-  text-align: center;
-}
+  p {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
 
-.content a {
-  text-decoration: none;
-  font-family: "Volkhov", sans-serif;
-  font-style: italic;
-  color: black;
-  font-size: 1.5rem;
-  text-transform: lowercase;
-  transition: all 0.5s;
-}
+  a {
+    text-decoration: none;
+    font-family: "Volkhov", sans-serif;
+    font-style: italic;
+    color: black;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    transition: all 0.5s;
 
-.content a:hover {
-  text-decoration: line-through;
-  text-decoration-thickness: 3px;
-  animation: lineCrossing 0.2s linear;
+    &:hover {
+      text-decoration: line-through;
+      text-decoration-thickness: 3px;
+      animation: lineCrossing 0.2s linear;
+    }
+  }
 }
 
 .titles {
@@ -43,10 +43,10 @@
 .tags {
   display: flex;
   align-items: baseline;
-}
 
-.tags h3 {
-  margin-left: 1rem;
+  h3 {
+    margin-left: 1rem;
+  }
 }
 
 .description {
