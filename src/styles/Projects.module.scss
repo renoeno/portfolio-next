@@ -3,10 +3,14 @@
   padding: 2.5rem 3rem 0 3rem;
 
   animation: pageDisplaying 1s;
-}
 
-.content h1 {
-  margin-bottom: 1rem;
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    padding-top: 3rem;
+  }
 }
 
 @keyframes pageDisplaying {

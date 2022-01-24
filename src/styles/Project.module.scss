@@ -3,68 +3,72 @@
   padding: 2rem 3rem 1.5rem 3rem;
 
   animation: pageDisplaying 1s;
-}
 
-.content h1 {
-  margin-bottom: 1rem;
-}
+  h1 {
+    margin-bottom: 1rem;
+  }
 
-.content p {
-  margin: 1.5rem 0;
-  text-align: center;
-}
+  p {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
 
-.content a {
-  text-decoration: none;
-  font-family: "Volkhov", sans-serif;
-  font-style: italic;
-  color: black;
-  font-size: 1.5rem;
-  text-transform: lowercase;
-  transition: all 0.5s;
-}
+  a {
+    text-decoration: none;
+    font-family: "Volkhov", sans-serif;
+    font-style: italic;
+    color: black;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    transition: all 0.5s;
 
-.content a:hover {
-  text-decoration: line-through;
-  text-decoration-thickness: 3px;
-  animation: lineCrossing 0.2s linear;
-}
+    &:hover {
+      text-decoration: line-through;
+      text-decoration-thickness: 3px;
+      animation: lineCrossing 0.2s linear;
+    }
+  }
 
-.titles {
-  display: flex;
-  flex-direction: column;
-}
+  .titles {
+    display: flex;
+    flex-direction: column;
 
-.info {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
 
-.tags {
-  display: flex;
-  align-items: baseline;
-}
+      .tags {
+        display: flex;
+        align-items: baseline;
 
-.tags h3 {
-  margin-left: 1rem;
-}
+        h3 {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
 
-.description {
-  text-align: center;
-  margin-bottom: 2rem;
-}
+  .description {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
 
-.playerWrapper {
-  position: relative;
-  padding-top: 56.25%;
-  margin-bottom: 3rem;
-}
+  .playerWrapper {
+    position: relative;
+    padding-top: 56.25%;
+    margin-bottom: 3rem;
 
-.reactPlayer {
-  position: absolute;
-  top: 0;
-  left: 0;
+    .reactPlayer {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding-top: 3rem;
+  }
 }
 
 @keyframes lineCrossing {
@@ -82,11 +86,5 @@
   }
   to {
     opacity: 1;
-  }
-}
-
-@media (max-width: 480px) {
-  .content {
-    padding-top: 3rem;
   }
 }

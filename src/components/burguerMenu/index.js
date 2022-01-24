@@ -96,7 +96,11 @@ export function BurguerMenu() {
           </div>
         </motion.div>
 
-        <motion.div animate={isOpen ? "closed" : "open"} variants={variants}>
+        <motion.div
+          animate={isOpen ? "closed" : "open"}
+          variants={variants}
+          className={styles.openContainer}
+        >
           <a href="" onClick={clickButtonHandler}>
             <AiOutlineMenu className={styles.openIcon} />
           </a>
