@@ -1,6 +1,6 @@
 .content {
   text-align: end;
-  margin: 2rem 3rem 1.5rem 3rem;
+  padding: 2rem 3rem 1.5rem 3rem;
 
   animation: pageDisplaying 1s;
 }
@@ -87,6 +87,6 @@
 
 @media (max-width: 480px) {
   .content {
-    margin-top: 3rem;
+    padding-top: 3rem;
   }
 }

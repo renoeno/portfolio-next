@@ -1,21 +1,20 @@
 import Image from "next/image";
-import Link from "next/link";
+import {
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+  AiOutlineMail,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 
-import classes from "./Contacts.module.scss";
+import styles from "./Contacts.module.scss";
 
-const Contacts = () => {
+const Contacts = (props) => {
+  let classes = props.color === "white" ? "contactWhite" : "contactBlack";
   return (
-    <ul className={classes.contacts}>
+    <ul className={styles.contacts}>
       <li>
         <a target="_blank" rel="noreferrer" href="https://github.com/renoeno/">
-          <Image
-            className="image-link"
-            src="/github.svg"
-            width="25"
-            height="25"
-            alt="Github icon"
-            priority={true}
-          />
+          <AiOutlineGithub className={`${styles.contact} ${styles[classes]}`} />
         </a>
       </li>
       <li>
@@ -24,26 +23,14 @@ const Contacts = () => {
           rel="noreferrer"
           href="https://www.linkedin.com/in/renoalmeida/"
         >
-          <Image
-            className="image-link"
-            src="/linkedin.svg"
-            width="25"
-            height="25"
-            alt="Linkedin icon"
-            priority={true}
+          <AiOutlineLinkedin
+            className={`${styles.contact} ${styles[classes]}`}
           />
         </a>
       </li>
       <li>
         <a target="_blank" rel="noreferrer" href="mailto:renoalm@gmail.com">
-          <Image
-            className="image-link"
-            src="/gmail.svg"
-            width="25"
-            height="25"
-            alt="Gmail icon"
-            priority={true}
-          />
+          <AiOutlineMail className={`${styles.contact} ${styles[classes]}`} />
         </a>
       </li>
       <li>
@@ -52,13 +39,8 @@ const Contacts = () => {
           rel="noreferrer"
           href="https://instagram.com/renoenoenoeno/"
         >
-          <Image
-            className="image-link"
-            src="/instagram.svg"
-            width="25"
-            height="25"
-            alt="Instagram icon"
-            priority={true}
+          <AiOutlineInstagram
+            className={`${styles.contact} ${styles[classes]}`}
           />
         </a>
       </li>

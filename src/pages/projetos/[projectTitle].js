@@ -7,7 +7,7 @@ import Image from "next/image";
 import Header from "../../components/header/Header";
 import { fadeInUpOp } from "../../animations/Animations";
 
-import classes from "../../styles/Project.module.scss";
+import styles from "../../styles/Project.module.scss";
 
 import projects from "../../../lib/projects.list.json";
 
@@ -24,30 +24,30 @@ const Project = (props) => {
       <Head>
         <title>{project.title}</title>
       </Head>
-      <Header />
+
       <motion.div
         exit={{ opacity: 0 }}
         initial="initial"
         animate="animate"
         transition={{ duration: 1 }}
       >
-        <motion.div variants={fadeInUpOp} className={classes.content}>
-          <div className={classes.titles}>
+        <motion.div variants={fadeInUpOp} className={styles.content}>
+          <div className={styles.titles}>
             <h1 className="title">{project.title}</h1>
             <h2 className="subtitle">{project.year}</h2>
-            <div className={classes.info}>
+            <div className={styles.info}>
               <a
                 target="_blank"
                 rel="noreferrer"
                 href={project.link}
-                className={classes.link}
+                className={styles.link}
               >
                 {project.video === undefined
                   ? "Visitar o site"
                   : "Visitar o repositório no github"}
               </a>
 
-              <div className={classes.tags}>
+              <div className={styles.tags}>
                 {project.tags.map((tag) => (
                   <h3 className="subtitle" key={project.key}>
                     {tag}
@@ -57,13 +57,13 @@ const Project = (props) => {
             </div>
           </div>
 
-          <div className={classes.description}>
+          <div className={styles.description}>
             <p>{project.description}</p>
           </div>
           {project.video !== undefined ? (
-            <div className={classes.playerWrapper}>
+            <div className={styles.playerWrapper}>
               <ReactPlayer
-                className={classes.reactPlayer}
+                className={styles.reactPlayer}
                 url={project.video}
                 style={{ margin: "0 auto" }}
                 width="100%"

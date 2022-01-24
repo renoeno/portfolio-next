@@ -2,11 +2,10 @@ import Image from "next/image";
 import Head from "next/head";
 
 import Contacts from "../components/contacts/Contacts";
-import Header from "../components/header/Header";
 
 import { fadeInUpOp } from "../animations/Animations";
 
-import classes from "../styles/About.module.scss";
+import styles from "../styles/About.module.scss";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -17,16 +16,16 @@ const About = () => {
         <meta name="description" content="Sobre Reno Almeida" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Header />
+
       <motion.div
         exit={{ opacity: 0 }}
         initial="initial"
         animate="animate"
         transition={{ duration: 1 }}
       >
-        <motion.div variants={fadeInUpOp} className={classes.content}>
-          <div className={classes.personal}>
-            <div className={classes.picture}>
+        <motion.div variants={fadeInUpOp} className={styles.content}>
+          <div className={styles.personal}>
+            <div className={styles.picture}>
               <Image
                 src="/picture.jpg"
                 width="180"
@@ -35,7 +34,7 @@ const About = () => {
                 priority={true}
               />
             </div>
-            <Contacts />
+            <Contacts color="black" />
           </div>
           <p className="content-text">
             Meu nome é Reno Almeida e sou desenvolvedor e pesquisador. Sou

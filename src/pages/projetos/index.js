@@ -8,7 +8,7 @@ import { fadeInUpOpY, stagger } from "../../animations/Animations";
 
 import ProjectItem from "../../components/projectitem/ProjectItem";
 
-import classes from "../../styles/Projects.module.scss";
+import styles from "../../styles/Projects.module.scss";
 
 import projects from "../../../lib/projects.list.json";
 
@@ -20,7 +20,7 @@ const Projects = () => {
         <meta name="description" content="Projetos de Reno Almeida" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Header />
+
       <motion.div
         exit={{ opacity: 0 }}
         initial="initial"
@@ -28,7 +28,7 @@ const Projects = () => {
         transition={{ duration: 1 }}
       >
         <motion.div variants={stagger}>
-          <motion.div variants={fadeInUpOpY} className={classes.content}>
+          <motion.div variants={fadeInUpOpY} className={styles.content}>
             {projects.map((project) => {
               return (
                 <Link

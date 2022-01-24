@@ -1,8 +1,20 @@
 .contacts {
   display: flex;
   justify-content: center;
-}
 
-.contacts li:not(:last-child) {
-  margin-right: 1rem;
+  li:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .contact {
+    font-size: 2rem;
+  }
+
+  .contactBlack {
+    color: black;
+  }
+
+  .contactWhite {
+    color: white;
+  }
 }

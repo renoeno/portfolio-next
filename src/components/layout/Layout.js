@@ -1,7 +1,7 @@
-import classes from "./Layout.module.scss";
+import styles from "./Layout.module.scss";
 
 const Layout = (props) => {
-  return <main className={classes.main}>{props.children}</main>;
+  return <main className={styles.main}>{props.children}</main>;
 };
 
 export default Layout;

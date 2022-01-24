@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { motion } from "framer-motion";
 
-import classes from "../styles/Home.module.scss";
+import styles from "../styles/Home.module.scss";
 
 const easing = [0.6, -0.05, 0.1, 0.99];
 
@@ -27,10 +27,10 @@ const Home = () => {
         animate="animate"
         transition={{ duration: 1 }}
       >
-        <motion.div variants={fadeInUp} className={classes.main}>
+        <motion.div variants={fadeInUp} className={styles.main}>
           <h2 className="subtitle">reno almeida</h2>
           <h1 className="title">interseções entre tecnologia e design.</h1>
-          <nav className={classes.homeNav}>
+          <nav className={styles.homeNav}>
             <ul>
               <li className="subtitle">
                 <Link href="/projetos" prefetch>
