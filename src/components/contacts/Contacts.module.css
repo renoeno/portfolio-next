@@ -1,8 +1,0 @@
-.contacts {
-  display: flex;
-  justify-content: center;
-}
-
-.contacts li:not(:last-child) {
-  margin-right: 1rem;
-}

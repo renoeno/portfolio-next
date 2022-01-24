@@ -5,14 +5,12 @@
   height: 100vh;
   justify-content: center;
   text-align: center;
-<<<<<<<< HEAD:src/styles/Home.module.css
+
   animation: pageDisplaying 1s;
-========
 
   &:not(:last-child) {
     margin-bottom: 1.5rem;
   }
->>>>>>>> e46fffac71423579fa544a84bf713b29a90e34ea:src/styles/Home.module.scss
 }
 
 .main .homeNav {
